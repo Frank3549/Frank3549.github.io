@@ -3244,3 +3244,7 @@ input, select, textarea {
 	.linkBorderRemove{
 		border: none;
 	}
+
+	.skillsSection{
+		margin-left: 2em;
+	}

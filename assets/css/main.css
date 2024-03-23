@@ -3222,9 +3222,7 @@ input, select, textarea {
 			}
 
 	}
-
-
-	/*OWN CODE */
+	/* *** */
 	.gallery img{
 		width: 100%;
 		max-width: 500px;
@@ -3233,7 +3231,7 @@ input, select, textarea {
 		border-radius: 10px;
 	}
 
-	.portfolioTitle{ /*h3 title was extending to the width of the container */
+	.portfolioTitle{ 
 		display: inline-block;
 	}
 
@@ -3247,4 +3245,8 @@ input, select, textarea {
 
 	.skillsSection{
 		margin-left: 2em;
+	}
+
+	.imageBorder{
+		border: 2px solid #000000;
 	}

@@ -3250,3 +3250,7 @@ input, select, textarea {
 	.imageBorder{
 		border: 2px solid #000000;
 	}
+
+	.marginAboveButton{
+		margin-top: 2em;
+	}

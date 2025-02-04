@@ -2593,12 +2593,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.png");
+		background: linear-gradient(35deg, #00bdfc, #031a29); /* Smooth transition */
+		background-attachment: scroll;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: cover, auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2646,6 +2645,7 @@ input, select, textarea {
 		}
 
 /* Footer */
+
 
 	#footer .icons {
 		margin: 1em 0 0 0;
@@ -3081,7 +3081,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.png");
+				background-image: url("images/overlay.png"), url("../../images/bg1.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3253,4 +3253,8 @@ input, select, textarea {
 
 	.marginAboveButton{
 		margin-top: 2em;
+	}
+
+	.sectionTitles {
+		font-size: 2em;
 	}

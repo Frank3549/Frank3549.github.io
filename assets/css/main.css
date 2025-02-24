@@ -2593,7 +2593,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: linear-gradient(35deg, #00bdfc, #031a29); /* Smooth transition */
+		background: linear-gradient(90deg, #00bdfc, #031a29); /* Smooth transition */
 		background-attachment: scroll;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
